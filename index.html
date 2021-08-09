@@ -9,8 +9,26 @@
     
     <style>
 
+        header {
+
+            display: flex;
+            justify-content: space-between;
+            padding: 60px;
+            
+        }
+
+        .oval {
+
+            width: 160px;
+            height: 80px;
+            background: orange;
+            border-radius: 50%;
+
+        }
+
         h1 {
             
+            position: relative;
             color: fuchsia;
             font-weight: bold;
 
@@ -20,7 +38,7 @@
 
             border: 2px solid darkblue;
             border-radius: 5px;
-            box-shadow: 0 30px 60px rgba(0,0,0,0.1), 0 18px 18px rgba(0,0,0,0.1);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.2), 0 18px 18px rgba(0,0,0,0.2);
 
         }
 
@@ -28,7 +46,7 @@
             
             border: 2px solid darkblue;
             border-radius: 5px;
-            box-shadow: 0 30px 60px rgba(0,0,0,0.1), 0 18px 18px rgba(0,0,0,0.1);
+            box-shadow: -30px 30px 60px rgba(0,0,0,0.2), 0 18px 18px rgba(0,0,0,0.2);
 
         }            
 
@@ -60,7 +78,7 @@
         .paragraph-1 {
 
             background-color: rgba(45, 45, 45, 0.3);
-            box-shadow: 0 30px 60px rgba(0,0,0,0.1), 0 18px 18px rgba(0,0,0,0.1);
+            box-shadow: -30px 30px 60px rgba(0,0,0,0.2), 0px 18px 18px rgba(0,0,0,0.2);
             padding: 25px;
             margin-left: 20px;
             margin-right: 20px;
@@ -73,11 +91,12 @@
         .paragraph-2 {
 
             background-color: rgba(45, 45, 45, 0.3);
-            box-shadow: 0 30px 60px rgba(0,0,0,0.1), 0 18px 18px rgba(0,0,0,0.1);
+            box-shadow: -30px 30px 60px rgba(0,0,0,0.2), 0px 18px 18px rgba(0,0,0,0.2);
             padding: 25px;
             margin-left: 100px;
             margin-right: 100px;
-            margin-bottom: 35px;
+            margin-top: 37px;
+            margin-bottom: 50px;
             border-radius: 5px;
 
         }
@@ -143,6 +162,7 @@
             text-align: center;
             display: block;
             margin: 0 auto;
+            margin-bottom: 25px;
 
         }
 
@@ -152,7 +172,15 @@
 
 <body>
 
-    <h1><center>A Tribute to Umphrey's McGee</center></h1>
+    <header>
+
+        <div class="oval"></div>
+
+        <h1><center>A Tribute to Umphrey's McGee</center></h1>
+
+        <div class="oval"></div>
+
+    </header>
 
     <img class="headerimg" width=100%; height=auto;
 
